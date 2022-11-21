@@ -2,7 +2,7 @@
 
 I used Python to track stock prices and send an email if the price of a stock fell below a certain limit. 
 
-<ins>**For APL**</ins>
+<ins>**For API**</ins>
 
 For the record of Stock pricing I used [Financial modeling preparation API](https://site.financialmodelingprep.com/developer)
 
