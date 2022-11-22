@@ -1,6 +1,16 @@
-# Stock_Alert
+# Description
 
-I used Python to track stock prices and send an email if the price of a stock fell below a certain limit. 
+This repository is to track stock prices and send an email if the price of a stock fell below a certain limit. 
+
+# How to use this package
+
+- Step 1:
+- Step 2: 
+
+# Install the required packages
+- `pip3 install -r requirements.txt`
+
+# Contribution guidelines
 
 <ins>**For API**</ins>
 

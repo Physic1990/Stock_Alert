@@ -4,10 +4,13 @@
 
 
 from http import server
-from mydata import password, api_key
-import requests
-import smtplib
-import time
+from dotenv import load_dotenv
+import requests, smtplib, time, os
+from dotenv import load_dotenv
+
+api_key = os.environ.get('api_key')
+password = os.environ.get('password')
+email = os.environ.get('email')
 
 stock_name= 'GOOG'
 
@@ -25,14 +28,14 @@ def send_email(password):
     server = smtplib.SMTP('smtp-mail.outlook.com',587)
     server.ehlo()
     server.starttls()
-    server.login('niraulashashwot1990@outlook.com',password)
+    server.login(email,password)
     msg = """Subject : """ + str(name) + """ Stock Excusive
 
 The price of """ + str(name) + """ (""" + symbol + """) """+ """has reached: """ + str(stock_price)
 
     server.sendmail(
-        'niraulashashwot1990@outlook.com',
-        'niraulashashwot1990@outlook.com',
+        email,
+        email,
         msg
     )
     print('email is sent')
