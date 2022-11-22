@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 import requests, smtplib, time, os
 from dotenv import load_dotenv
 
+load_dotenv()
+
 api_key = os.environ.get('api_key')
 password = os.environ.get('password')
 email = os.environ.get('email')
