@@ -11,11 +11,11 @@ Tracker is a tool that tracks the price of a specified stock and sends an email 
     - **'api_key'**: your Financial Modeling Prep API key
     - **'email'**: your Outlook email address
     - **'password'**: your Outlook account password
-    - To install the required packages, you can run the following command in your terminal:  
-     ` pip3 install -r requirements.txt ` <br> 
-      This will install the requests and python-dotenv packages, which are required by the script. <br>
+- To install the required packages, you can run the following command in your terminal:  
+     ` pip3 install -r requirements.txt ` <br>
+      This will install the requests and python-dotenv packages, which are required by the script. <br>  <br>
       If you don't have pip installed on your system, you can install it by running the following command: <br>
-      `python -m ensurepip --default-pip` <br>
+      `python -m ensurepip --default-pip` <br><br>
       Alternatively, you can install the required packages individually by running the following commands:<br>
       `pip install requests`<br>
       `pip install python-dotenv` <br>
@@ -24,6 +24,9 @@ Tracker is a tool that tracks the price of a specified stock and sends an email 
 - Open the **'tracker.py'** file and specify the stock you want to track by replacing stock_name with the desired ticker symbol.
 - Set the price threshold by modifying the **'if'** statement in the **'check_stock()'** function.
 - Run the script by entering **"python tracker.py"** in the terminal. The script will run indefinitely, checking the stock price every minute and sending an email notification if the price falls below the specified threshold.
+
+# Disclaimer
+This script is for educational and informational purposes only, and should not be used for financial decision making. Please do your own research and consult with a financial advisor before making any investment decisions.
 
 # Credits
 
