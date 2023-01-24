@@ -1,6 +1,7 @@
 # STOCK Tracker
 
-Tracker is a tool that tracks the price of a specified stock and sends an email notification when the price reaches a certain threshold.
+Tracker is a Python script that allows users to track the price of a specific stock and receive email notifications when the price reaches a certain threshold. The script utilizes the Financial Modeling Prep API to retrieve real-time stock data, making it an accurate and reliable tool for monitoring stock prices. The email notifications are sent via Microsoft Outlook, which enables the user to stay updated on the stock price without constantly checking the market. This project was developed as a way to practice using API calls and automated email notifications in Python, as well as a useful tool for keeping track of stock prices.
+
 # Prerequisites
 - A financial modeling API key from [Financial modeling preparation API](https://site.financialmodelingprep.com/developer)
 - A Microsoft Outlook account and email address
